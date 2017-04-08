@@ -1888,6 +1888,63 @@ function myFunction2() {
     {% csrf_token %}
     <div><h1  style="font-size:27px; padding-left: 320px;">Character Sheet</h1></div>
     <br>
+    	<div class = "vanish">
+                Name:<input type="text" name="name"><br><br>
+           <br><br>
+            Password: <input type="password" name="password">
+            	<br><br>
+            Essnece: <select name="testinput" form="myform">
+                <option value="Dynamic">Dynamic</option>
+                <option value="Pattern">Pattern</option>
+                <option value="Primordial">Primordial</option>
+                <option value="Questing">Questing</option></select>
+            <br><br>
+           
+            Concept: <select name="concept" form="myform" >
+                <option value="Activist">Activist</option>
+                <option value="Artist">Artist</option>
+                <option value="Criminal">Criminal</option>
+                <option value="Crusader">Crusader</option>
+                <option value="Hacker">Hacker</option>
+                <option value="Intellectual">Intellectual</option>
+                <option value="Kid">Kid</option>
+                <option value="Loner">Loner</option>
+                <option value="Mystic">Mystic</option>
+                <option value="Activist">Night-Owl</option>
+                <option value="Activist">Official</option>
+                <option value="Hacker">Prophet</option>
+                <option value="Activist">Rebel</option>
+                <option value="Rogue">Rogue</option>
+                <option value="Scientist">Scientist</option>
+                <option value="Survivor">Survivor</option>
+                <option value="Techie">Techie</option>
+                <option value="Trickster">Trickster</option>
+                <option value="Visionary">Visionary</option>
+                <option value="Visionary">Wage Slave</option>
+            </select>
+          
+        <br><br>
+        
+                Tradition: <select name="tradition" form="myform">
+                <option value="Akashic Brotherhood">Akashic Brotherhood</option>
+                <option value="Celestial Chorus">Celestial Chorus</option>
+                <option value="Cult of Ecstasy">Cult of Ecstasy</option>
+                <option value="Dreamspeakers">Dreamspeakers</option>
+                <option value="Euthanotos">Euthanatos</option>
+                <option value="Hollow Ones">Hollow Ones</option>
+                <option value="Order of Hermes">Order of Hermes</option>
+                <option value="Society of Ether">Society of Ether</option>
+                <option value="Verbena">Verbena</option>
+                <option value="Virtual Adepts">Virtual Adepts</option>
+                <option value="Orphans">Orphans</option></select>
+         <br><br>
+        
+            Description:<TEXTAREA Name="description" rows="6" cols="80"></TEXTAREA>
+        <br><br>
+            Image URL:</td><td> <TEXTAREA Name="image" rows="1" cols="80"></TEXTAREA>
+            </div>
+            <br>
+            	<div class = "overflow">
     <table>
         <tr><td style="width:100px">
             Name:</td><td style="padding-left:15px"> <input type="text" name="name"></td>
@@ -1955,6 +2012,7 @@ function myFunction2() {
             Image URL:</td><td> <TEXTAREA Name="image" rows="1" cols="80"></TEXTAREA>
         </td></tr>
     </table>
+    </div>
     <BR><BR>
     <h1  style="font-size:27px; padding-left: 350px;">Attributes</h1>
   <div class = "vanish">
